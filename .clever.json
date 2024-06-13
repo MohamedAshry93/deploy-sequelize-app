@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "app_id": "app_26c0ce71-37b2-4350-af99-122bd2f17294",
+      "org_id": "user_80368126-fe1e-4ffd-9659-2aaeb0f145ba",
+      "deploy_url": "https://push-n3-par-clevercloud-customers.services.clever-cloud.com/app_26c0ce71-37b2-4350-af99-122bd2f17294.git",
+      "git_ssh_url": "git+ssh://git@push-n3-par-clevercloud-customers.services.clever-cloud.com/app_26c0ce71-37b2-4350-af99-122bd2f17294.git",
+      "name": "deploy-sequelize-app",
+      "alias": "deploy-sequelize-app"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "source-assignment-6",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "21.7.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "sequelize": "^6.37.3"
+  }
+}
