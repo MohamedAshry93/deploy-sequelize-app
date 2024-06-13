@@ -1,11 +1,11 @@
 import { Sequelize } from "sequelize";
 
 const sequelize = new Sequelize(
-    "b7gffbv8eoqqua7ogrlj",
-    "uxisy2xkzbaqa0dw",
-    "uNwS2WyewQGqs52NR0N0",
+    "bgrkphdywgacjs7zraxl",
+    "usawfs8enq0zryyk",
+    "ZgSvHrevK0g0MhcQtdAy",
     {
-        host: "b7gffbv8eoqqua7ogrlj-mysql.services.clever-cloud.com",
+        host: "bgrkphdywgacjs7zraxl-mysql.services.clever-cloud.com",
         dialect: "mysql",
     }
 );
