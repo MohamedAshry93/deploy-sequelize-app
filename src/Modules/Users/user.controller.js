@@ -25,7 +25,7 @@ const signIn = async (req, res, next) => {
                 .status(200)
                 .json({ Message: "user login successfully", user: user.userName });
         } else {
-            res.status(401).json({ Message: "user not found" });
+            res.status(401).json({ Message: "Incorrect email or password" });
         }
     } catch (error) {
         res.status(500).json({ Message: "Internal Server error", error });
@@ -60,6 +60,9 @@ const getSpecificUser = async (req, res, next) => {
                 },
             ],
         });
+        if (user == null) {
+            return res.status(404).json({ Message: "user not found" });
+        }
         res.status(200).json({ Message: "user found successfully", user });
     } catch (error) {
         res.status(500).json({ Message: "Internal Server error", error });

@@ -70,6 +70,9 @@ const getSpecificPost = async (req, res, next) => {
             attributes: ["id", "title", "content"],
             include: { model: User, attributes: ["username"] }, // Include the author's username
         });
+        if (post == null) {
+            return res.status(404).json({ Message: "post not found" });
+        }
         res.status(200).json({ Message: "post found successfully", post });
     } catch (error) {
         res.status(500).json({ Message: "Internal Server error", error });
